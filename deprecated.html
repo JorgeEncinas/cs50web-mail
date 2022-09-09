@@ -1,0 +1,12 @@
+<input type="checkbox" id="mark_read" onclick="change_read_status(${email.id})" ${email.read ? 'checked' : ''}>
+
+<input type="checkbox" id="mark_archived" onclick="change_archive_status(${email.id})" ${email.archived ? 'checked' : ''}>
+
+
+<div class="col-sm-2 col-xs-1">
+    ${read_input}
+  </div>
+  <div class="col-sm-2 col-xs-1">
+    ${archive_input}
+  </div>
+  
